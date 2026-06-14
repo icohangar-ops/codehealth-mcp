@@ -7,6 +7,8 @@
 [![MCP](https://img.shields.io/badge/MCP-Protocol-00C4B4?logo=modelcontextprotocol&logoColor=white)](https://modelcontextprotocol.io)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-Listed-00C4B4?logo=modelcontextprotocol&logoColor=white)](https://github.com/modelcontextprotocol/registry)
+[![awesome-mcp-servers](https://img.shields.io/badge/awesome--mcp--servers-Listed-blue)](https://github.com/appcypher/awesome-mcp-servers)
 
 </div>
 
@@ -187,6 +189,15 @@ codehealth-mcp/
 │   └── package.json
 └── functions/                # Slack function definitions
 ```
+
+---
+
+## Community & Registry
+
+CodeHealth MCP is listed in the following directories:
+
+- **[awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)** – A curated list of MCP servers.
+- **[MCP Registry](https://github.com/modelcontextprotocol/registry)** – Official registry for Model Context Protocol servers.
 
 ---
 
