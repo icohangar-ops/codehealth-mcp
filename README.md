@@ -140,6 +140,20 @@ CodeHealth MCP ships with a full Slack Agent Builder app featuring:
 - **Suggested prompts** — One-click analysis triggers
 - **MCP server** — Same tools, available everywhere
 
+### Demo Sandbox (Devpost judges)
+
+The live demo workspace is **[codehealthdemo.slack.com](https://codehealthdemo.slack.com/)** — the **CodeSentinel** agent (App ID `A0BEHRDN5TQ`) is installed and authorized there. Mention it in any channel:
+
+```
+@CodeSentinel run a full health scan on https://github.com/icohangar-ops/codesentinel
+```
+
+Sandbox configuration:
+
+| App credentials & App ID | Agent capability enabled | Socket Mode enabled |
+|---|---|---|
+| ![App Basic Information](docs/sandbox-setup/01-app-basic-info.png) | ![Agent enabled](docs/sandbox-setup/02-agent-enabled.png) | ![Socket Mode enabled](docs/sandbox-setup/03-socket-mode.png) |
+
 ---
 
 ## Adding Custom Analyzers
