@@ -58,7 +58,7 @@ This means CodeSentinel's analysis isn't locked inside Slack — any MCP-compati
 - Bolt for Node.js (Slack app framework)
 - Block Kit (rich Slack UI)
 - Model Context Protocol SDK (tool exposure)
-- OpenAI / Anthropic (LLM for summaries and explanations)
+- Deepseek, OpenAI, or Amazon Nova on Bedrock (LLM for summaries and explanations)
 
 ### Architecture
 
