@@ -66,9 +66,21 @@ git clone https://github.com/icohangar-ops/codehealth-mcp.git
 cd codehealth-mcp
 npm install
 cp .env.sample .env
-# Edit .env with your LLM API key
+# Edit .env with your LLM API key (Deepseek by default)
 npm start
 ```
+
+### LLM providers
+
+`LLM_PROVIDER` defaults to `deepseek`.
+
+| Provider | `LLM_PROVIDER` | Credentials |
+|----------|----------------|-------------|
+| Deepseek | `deepseek` (default) | `DEEPSEEK_API_KEY` |
+| OpenAI | `openai` | `OPENAI_API_KEY` |
+| Amazon Nova Lite on Bedrock | `bedrock` | Standard AWS credential chain. Region `us-east-1`, model `us.amazon.nova-lite-v1:0`. |
+
+`LLM_PROVIDER=anthropic` is rejected. Use `bedrock` for Amazon Nova.
 
 ### Use in Claude Desktop
 
@@ -124,7 +136,7 @@ Add the Slack app manifest, enable Agent Builder, and @CodeHealth in any channel
 │                                          │
 │  ┌──────────────────────────────────┐    │
 │  │       LLM Provider               │    │
-│  │  Deepseek / OpenAI / Anthropic   │    │
+│  │  Deepseek / OpenAI / Nova Lite   │    │
 │  └──────────────────────────────────┘    │
 └──────────────────────────────────────────┘
 ```

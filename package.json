@@ -11,9 +11,11 @@
     "start": "node app.js",
     "dev": "node --watch app.js",
     "lint": "eslint **/*.js",
+    "test": "node --experimental-test-module-mocks --test",
     "mcp:start": "node mcp-server/index.js"
   },
   "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.1147.0",
     "@daytona/sdk": "^0.190.1",
     "@modelcontextprotocol/sdk": "^1.12.1",
     "@slack/bolt": "^4.2.0",
